@@ -4,7 +4,7 @@
 		module="functionalprogramminginscala$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150627115541"
+		publication="20150712105826"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

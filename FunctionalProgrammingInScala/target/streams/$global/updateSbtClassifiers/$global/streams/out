@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 758ms :: artifacts dl 36ms
+[debug] :: resolution report :: resolve 1074ms :: artifacts dl 53ms
 [debug] 	report for default#functionalprogramminginscala$sbt_2.11;1.0 default produced in /Users/JunHo/IdeaProjects/FunctionalProgrammingInScala/target/resolution-cache/reports/default-functionalprogramminginscala$sbt_2.11-default.xml
-[debug] 	resolve done (758ms resolve - 36ms download)
+[debug] 	resolve done (1074ms resolve - 53ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#functionalprogramminginscala$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 269ms :: artifacts dl 33ms
+[debug] :: resolution report :: resolve 315ms :: artifacts dl 36ms
 [debug] 	report for default#functionalprogramminginscala$sources_2.11;1.0 default produced in /Users/JunHo/IdeaProjects/FunctionalProgrammingInScala/target/resolution-cache/reports/default-functionalprogramminginscala$sources_2.11-default.xml
-[debug] 	resolve done (269ms resolve - 33ms download)
+[debug] 	resolve done (315ms resolve - 36ms download)
