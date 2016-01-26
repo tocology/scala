@@ -1,0 +1,9 @@
+compile
+console
+sbt update
+update
+compile
+update
+exit
+update
+exit
