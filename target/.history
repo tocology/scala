@@ -8,3 +8,11 @@ project
 reload
 settings
 exit
+run
+help
+project
+reload
+tasks
+projects
+clean
+exit
