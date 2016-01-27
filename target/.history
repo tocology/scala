@@ -7,3 +7,8 @@ update
 exit
 update
 exit
+compile
+sbt update
+update
+exti
+exit
