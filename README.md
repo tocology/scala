@@ -11,7 +11,7 @@ However, if you have any IDE for scala, we can skip the following steps.
 
 First, install the SBT at your workspace.
 
-** Ubuntu **
+**Ubuntu**
 ```console
 > echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
 > sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 642AC823
@@ -19,7 +19,7 @@ First, install the SBT at your workspace.
 > sudo apt-get install sbt
 ```
 
-** Mac **
+**Mac**
 ```console
 > brew install sbt
 ```
@@ -36,11 +36,16 @@ Next, we should make directories for Sources, Test and Recources respectivily an
 * jars in lib
 
 
+**Note**
+In this Project, we use Java8.
+If you don't, please enter and follow some steps from this link.
+<http://www.tecmint.com/install-java-jdk-jre-in-linux/>
+
+
 ### Run
 
 There is an Example for Akka actors(progscala2.introscala.shapes._), 
 so you can run this sample by following commands.
 ```console
-> sbt compile
-> sbt console
+> sbt run
 ```
