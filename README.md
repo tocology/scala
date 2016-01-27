@@ -16,7 +16,7 @@ First, install the SBT at your workspace.
 > echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
 > sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 642AC823
 > sudo apt-get update   
-  # maybe you need to install apt-transport-https first. At that time, 'sudo apt-get install apt-transport-https' first
+  # maybe you need to install apt-transport-https first. At that time, 'sudo apt-get install apt-transport-https' before this command.
 > sudo apt-get install sbt
 ```
 
