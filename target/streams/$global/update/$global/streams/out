@@ -7,9 +7,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for scala#scala_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62674850[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a5e5576[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@6a5e5576[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/org.scala-lang/scala-library/2.11.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom (2.11.7)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.pom(pom.original) (817ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/org.scala-lang/scala-library/2.11.7/jars/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in jcenter[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
@@ -17,20 +30,46 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.4.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.11;2.4.1 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4.1[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for com.typesafe.akka#akka-actor_2.11;2.4.1[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.pom (2.4.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.1!akka-actor_2.11.pom(pom.original) (820ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4.1/jars/akka-actor_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.11;2.4.1 in jcenter[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.3.0[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.3.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.3.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe#config;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/com.typesafe/config/1.3.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#config;1.3.0[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for com.typesafe#config;1.3.0[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.pom (1.3.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.pom(pom.original) (816ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/com.typesafe/config/1.3.0/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.3.0 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
@@ -48,10 +87,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
@@ -68,10 +107,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
@@ -91,10 +130,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
@@ -113,10 +152,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
@@ -135,10 +174,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.1->com.typesafe#config;1.3.0 [runtime->runtime(*)][0m
@@ -159,55 +198,107 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-compiler;2.11.7[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#scala-compiler;2.11.7[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom (2.11.7)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.pom(pom.original) (873ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/jars/scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in jcenter[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->optional(default)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom (2.11.7)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.pom(pom.original) (818ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/jars/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in jcenter[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom (1.0.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.pom(pom.original) (834ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/bundles/scala-xml_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom (1.0.4)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.pom(pom.original) (821ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/bundles/scala-parser-combinators_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
@@ -223,12 +314,28 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
-[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/jline/jline/2.12.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: found md file for jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m		=> https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.pom (2.12.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.pom[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] jline#jline;2.12.1!jline.pom(pom.original) (1017ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m		tried /home/ubuntu/.ivy2/local/jline/jline/2.12.1/jars/jline.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in jcenter[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
@@ -236,15 +343,55 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies scala#scala_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.1!akka-actor_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 389ms :: artifacts dl 16ms[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar (8220ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.1!akka-actor_2.11.jar (4813ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.jar(bundle) (1361ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar (26371ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar (3696ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle) (1756ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle) (1645ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/jline/jline/2.12.1/jline-2.12.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar (1561ms)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 10841ms :: artifacts dl 49432ms[0m
 [0m[[0mdebug[0m] [0m	report for scala#scala_2.11;1.0 compile produced in /home/ubuntu/workspace/target/resolution-cache/reports/scala-scala_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for scala#scala_2.11;1.0 runtime produced in /home/ubuntu/workspace/target/resolution-cache/reports/scala-scala_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for scala#scala_2.11;1.0 test produced in /home/ubuntu/workspace/target/resolution-cache/reports/scala-scala_2.11-test.xml[0m
@@ -258,5 +405,5 @@
 [0m[[0mdebug[0m] [0m	report for scala#scala_2.11;1.0 docs produced in /home/ubuntu/workspace/target/resolution-cache/reports/scala-scala_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for scala#scala_2.11;1.0 pom produced in /home/ubuntu/workspace/target/resolution-cache/reports/scala-scala_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for scala#scala_2.11;1.0 scala-tool produced in /home/ubuntu/workspace/target/resolution-cache/reports/scala-scala_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (389ms resolve - 16ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (10841ms resolve - 49432ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
