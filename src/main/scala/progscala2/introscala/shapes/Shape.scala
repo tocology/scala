@@ -1,6 +1,8 @@
 package progscala2.introscala.shapes
 
-case class Point(x: Double = 0.0, y: Double = 0.0)
+case class Point(x: Double = 0.0, y: Double = 0.0) {
+  def shitf(deltax: Double = 0.0 deltay: Double = 0.0) = 
+}
 
 abstract class Shape {
   /**
